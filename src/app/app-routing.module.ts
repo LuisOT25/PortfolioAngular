@@ -4,7 +4,7 @@ import { PresentacionComponent } from './presentacion/presentacion.component';
 
 const routes: Routes = [
   {
-    path:'',
+    path:'LuisOcampo',
     component: PresentacionComponent
   }
 ];
