@@ -12,7 +12,7 @@ import { CertificatesComponent } from './certificates/certificates.component';
     AppComponent,
     PresentacionComponent,
     ProjectsComponent,
-    CertificatesComponent
+    CertificatesComponent,
   ],
   imports: [
     BrowserModule,
