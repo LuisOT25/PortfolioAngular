@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { CertificatesComponent } from './certificates/certificates.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatExpansionModule} from '@angular/material/expansion'
+
 
 @NgModule({
   declarations: [
@@ -16,7 +19,9 @@ import { CertificatesComponent } from './certificates/certificates.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
