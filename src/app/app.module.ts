@@ -1,13 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatExpansionModule } from '@angular/material/expansion'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { CertificatesComponent } from './certificates/certificates.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatExpansionModule} from '@angular/material/expansion'
+import  {  PdfViewerModule  }  from  'ng2-pdf-viewer';
+import { FormsModule } from '@angular/forms';
+
+
 
 
 @NgModule({
@@ -21,7 +24,9 @@ import {MatExpansionModule} from '@angular/material/expansion'
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    PdfViewerModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
