@@ -1,7 +1,11 @@
 import { Component } from '@angular/core';
 import {MatDialog} from '@angular/material/dialog';
-import { auto } from '@popperjs/core';
 import { DialogBoxComponent } from '../dialog-box/dialog-box.component';
+
+
+export interface DialogData {
+  ruta: number;
+}
 
 @Component({
   selector: 'app-certificates',
@@ -9,6 +13,8 @@ import { DialogBoxComponent } from '../dialog-box/dialog-box.component';
   styleUrls: ['./certificates.component.css']
 })
 export class CertificatesComponent {
+  ruta!: number;
+
   constructor(public dialog: MatDialog) {}
 
   pdfSources:string[] =[
@@ -23,13 +29,11 @@ export class CertificatesComponent {
     'assets/Certificados/soportePresencial.pdf',
   ];
 
-
-
-
-  openDialog() {
-    const dialogRef = this.dialog.open(DialogBoxComponent,{
-      
-      width:auto
+  openDialog(){
+    let dialogRef = this.dialog.open(DialogBoxComponent,{
+      data:{
+        ruta: this.pdfSources[this.ruta]
+      }
     });
 
     dialogRef.afterClosed().subscribe(result => {
