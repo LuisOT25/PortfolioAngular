@@ -10,7 +10,6 @@ import { ProjectsComponent } from './projects/projects.component';
 import { CertificatesComponent } from './certificates/certificates.component';
 import { FormsModule } from '@angular/forms';
 import { MatDialogModule } from '@angular/material/dialog';
-import { DialogBoxComponent } from './dialog-box/dialog-box.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 
 
@@ -23,8 +22,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     AppComponent,
     PresentacionComponent,
     ProjectsComponent,
-    CertificatesComponent,
-    DialogBoxComponent
+    CertificatesComponent
   ],
   imports: [
     BrowserModule,
