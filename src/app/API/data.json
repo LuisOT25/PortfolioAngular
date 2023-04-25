@@ -1,0 +1,69 @@
+{
+  "projects":[
+    {
+      "titulo":"D.A.P",
+      "descripcion":"This is a project that was made to solve the problem of water distribution in the town of El Arenal",
+      "imagen":"assets/MicrosoftTeams-image.png",
+      "url":""
+    },
+    {
+      "titulo":"Micro Service",
+      "descripcion":"This project is a microservice that makes music recommendations based on the weather of a city",
+      "imagen":"assets/springImg.webp",
+      "url":"https://github.com/LuisOT25/MicroService"
+    },
+    {
+      "titulo":"Design Patterns",
+      "descripcion":"This is a practice about design patterns in java",
+      "imagen":"assets/dsgP.jpeg",
+      "url":"https://github.com/LuisOT25/DesignPatterns"
+    }
+  ],
+  "certificados":[
+    {
+      "nombre":"JAVA",
+      "pdf":"assets/Certificados/JAVA.pdf",
+      "imagen":"assets/previews/JavaSs.png"
+    },
+    {
+      "nombre":"Reconocimiento DAP",
+      "pdf":"assets/Certificados/01.pdf",
+      "imagen":"assets/previews/02Ss.png"
+    },
+    {
+      "nombre":"LANIA",
+      "pdf":"assets/Certificados/LANIA.pdf",
+      "imagen":"assets/previews/LANIASs.png"
+    },
+    {
+      "nombre":"goIT",
+      "pdf":"assets/Certificados/goIT.pdf",
+      "imagen":"assets/previews/goITSs.png"
+    },
+    {
+      "nombre":"Ensambla",
+      "pdf":"assets/Certificados/ensambla.pdf",
+      "imagen":"assets/previews/ensambla.png"
+    },
+    {
+      "nombre":"DiseñaRedes",
+      "pdf":"assets/Certificados/diseñaRedes.pdf",
+      "imagen":"assets/previews/DiseñaRedSs.png"
+    },
+    {
+      "nombre":"AdministraRedes",
+      "pdf":"assets/Certificados/aministraRedes.pdf",
+      "imagen":"assets/previews/adminRedSs.png"
+    },
+    {
+      "nombre":"Mantenimietno",
+      "pdf":"assets/Certificados/mantenimiento.pdf",
+      "imagen":"assets/previews/mantenimientoSs.png"
+    },
+    {
+      "nombre":"Soporte",
+      "pdf":"assets/Certificados/soportePresencial.pdf",
+      "imagen":"assets/previews/soporteSs.png"
+    }
+  ]
+}

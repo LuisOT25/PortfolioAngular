@@ -1,170 +1,20 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col" style="padding: 2%;">
+    <div class="col" style="padding: 2%;" *ngFor="let item of proyectosList">
       <mat-accordion>
         <mat-expansion-panel hideToggle>
           <mat-expansion-panel-header>
             <mat-panel-title>
-              <div class="card"  >
-                <img src="assets/MicrosoftTeams-image.png" style="max-width: px;" class="card-img-top" alt="...">
+              <div class="card" style="max-width: 400px; min-width: 300px;">
+                <img src="{{item.imagen}}" style="min-width: 350px;" class="card-img-top" alt="{{item.titulo}}">
               </div>
             </mat-panel-title>
           </mat-expansion-panel-header>
           <div class="card-body">
-            <h5 class="card-title">D.A.P </h5>
-            <p class="card-text">This is a project that was made to solve the problem of water distribution in the town of El Arenal.</p>
-            <a href="" class="btn btn-primary">See details!</a>
-          </div>
-        </mat-expansion-panel>
-      </mat-accordion>
-    </div>
-
-
-    <div class="col" style="padding: 2%;">
-      <mat-accordion>
-        <mat-expansion-panel hideToggle>
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              <div class="card" >
-                <img src="assets/MicrosoftTeams-image.png" style="max-width: px;" class="card-img-top" alt="...">
-              </div>
-            </mat-panel-title>
-          </mat-expansion-panel-header>
-          <div class="card-body">
-            <h5 class="card-title">D.A.P </h5>
-            <p class="card-text">This is a project that was made to solve the problem of water distribution in the town of El Arenal.</p>
-            <a href="" class="btn btn-primary">See details!</a>
-          </div>
-        </mat-expansion-panel>
-      </mat-accordion>
-    </div>
-    <div class="col" style="padding: 2%;">
-      <mat-accordion>
-        <mat-expansion-panel hideToggle>
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              <div class="card" >
-                <img src="assets/MicrosoftTeams-image.png" style="max-width: px;" class="card-img-top" alt="...">
-              </div>
-            </mat-panel-title>
-          </mat-expansion-panel-header>
-          <div class="card-body">
-            <h5 class="card-title">D.A.P </h5>
-            <p class="card-text">This is a project that was made to solve the problem of water distribution in the town of El Arenal.</p>
-            <a href="" class="btn btn-primary">See details!</a>
-          </div>
-        </mat-expansion-panel>
-      </mat-accordion>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col" style="padding: 2%;">
-      <mat-accordion>
-        <mat-expansion-panel hideToggle>
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              <div class="card" style="height: 18rem;" >
-                <img src="assets/springImg.webp" style="max-width: px;" class="card-img-top" alt="...">
-              </div>
-            </mat-panel-title>
-          </mat-expansion-panel-header>
-          <div class="card-body">
-            <h5 class="card-title">Micro Service</h5>
-            <p class="card-text">This project is a microservice that makes music recommendations based on the weather of a city.</p>
-            <a href="https://github.com/LuisOT25/MicroService" class="btn btn-primary">See details!</a>
-          </div>
-        </mat-expansion-panel>
-      </mat-accordion>
-    </div>
-    <div class="col" style="padding: 2%;">
-      <mat-accordion>
-        <mat-expansion-panel hideToggle>
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              <div class="card" style="height: 18rem;" >
-                <img src="assets/springImg.webp" style="max-width: px;" class="card-img-top" alt="...">
-              </div>
-            </mat-panel-title>
-          </mat-expansion-panel-header>
-          <div class="card-body">
-            <h5 class="card-title">Micro Service</h5>
-            <p class="card-text">This project is a microservice that makes music recommendations based on the weather of a city.</p>
-            <a href="https://github.com/LuisOT25/MicroService" class="btn btn-primary">See details!</a>
-          </div>
-        </mat-expansion-panel>
-      </mat-accordion>
-    </div>
-    <div class="col" style="padding: 2%;">
-      <mat-accordion>
-        <mat-expansion-panel hideToggle>
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              <div class="card" style="height: 18rem;" >
-                <img src="assets/springImg.webp" style="max-width: px;" class="card-img-top" alt="...">
-              </div>
-            </mat-panel-title>
-          </mat-expansion-panel-header>
-          <div class="card-body">
-            <h5 class="card-title">Micro Service</h5>
-            <p class="card-text">This project is a microservice that makes music recommendations based on the weather of a city.</p>
-            <a href="https://github.com/LuisOT25/MicroService" class="btn btn-primary">See details!</a>
-          </div>
-        </mat-expansion-panel>
-      </mat-accordion>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col" style="padding: 2%;">
-      <mat-accordion>
-        <mat-expansion-panel hideToggle>
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              <div class="card"  >
-                <img src="assets/dsgP.jpeg" style="max-width: px;" class="card-img-top" alt="...">
-              </div>
-            </mat-panel-title>
-          </mat-expansion-panel-header>
-          <div class="card-body">
-            <h5 class="card-title">Design Patterns</h5>
-            <p class="card-text">This is a practice about design patterns in java</p>
-            <a href="https://github.com/LuisOT25/DesignPatterns" class="btn btn-primary">See details!</a>
-          </div>
-        </mat-expansion-panel>
-      </mat-accordion>
-    </div>
-    <div class="col" style="padding: 2%;">
-      <mat-accordion>
-        <mat-expansion-panel hideToggle>
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              <div class="card"  >
-                <img src="assets/dsgP.jpeg" style="max-width: px;" class="card-img-top" alt="...">
-              </div>
-            </mat-panel-title>
-          </mat-expansion-panel-header>
-          <div class="card-body">
-            <h5 class="card-title">Design Patterns</h5>
-            <p class="card-text">This is a practice about design patterns in java</p>
-            <a href="https://github.com/LuisOT25/DesignPatterns" class="btn btn-primary">See details!</a>
-          </div>
-        </mat-expansion-panel>
-      </mat-accordion>
-    </div>
-    <div class="col" style="padding: 2%;">
-      <mat-accordion>
-        <mat-expansion-panel hideToggle>
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              <div class="card"  >
-                <img src="assets/dsgP.jpeg" style="max-width: px;" class="card-img-top" alt="...">
-              </div>
-            </mat-panel-title>
-          </mat-expansion-panel-header>
-          <div class="card-body">
-            <h5 class="card-title">Design Patterns</h5>
-            <p class="card-text">This is a practice about design patterns in java</p>
-            <a href="https://github.com/LuisOT25/DesignPatterns" class="btn btn-primary">See details!</a>
+            <h5 class="card-title">{{item.titulo}}</h5>
+            <p class="card-text">{{item.descripcion}}.</p>
+            <a href="{{item.url}}" class="btn btn-primary">See details!</a>
           </div>
         </mat-expansion-panel>
       </mat-accordion>

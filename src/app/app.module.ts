@@ -10,10 +10,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { CertificatesComponent } from './certificates/certificates.component';
 import { FormsModule } from '@angular/forms';
 import { MatDialogModule } from '@angular/material/dialog';
-import {MatGridListModule} from '@angular/material/grid-list';
-
-
-
+import { MatGridListModule} from '@angular/material/grid-list';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -22,7 +20,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     AppComponent,
     PresentacionComponent,
     ProjectsComponent,
-    CertificatesComponent
+    CertificatesComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +29,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatExpansionModule,
     FormsModule,
     MatDialogModule,
-    MatGridListModule
+    MatGridListModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
